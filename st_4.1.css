@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul  {
+    list-style-type: none;
+}
+
+/* top-header start */
+
+.container {
+/*     background-color: #bebebe; */
+    width: 1280px;
+    margin: auto;
+}
+.top-header {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.country-btn {
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    color: #61aefa;
+}
+
+.top-header a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #61aefa;
+}
+/* top-header end */
+
+/* main block start */
+
+.main-block {
+    width:  100%;
+    height:  600px;
+    background-image: url(../img/bg-applicant-asia-2__min_.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px 0px;
+}
+
+.logo-link {
+    background-color: darkred;
+    padding: 15px;
+    border-radius: 60%;
+    font-size: 20px;
+}
+
+.header-left ul {
+    display: flex;
+}
+
+.header-right ul {
+    display: flex;
+}
+
+.header-left ul li  {
+    margin: 25px;
+    margin-left: 15px;
+}
+
+.header-right ul li {
+    margin: 25px;
+    margin-left: 15px;
+}
+
+
+.header-link:hover {
+    color: #61aefa;
+    transition: .5s;
+}
+
+#Create-resume {
+    color: #a3daa5;
+    border: 1px solid #a3daa5;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+#Sign-up {
+    color: #fff;
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+label {
+    color: #fff;
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
